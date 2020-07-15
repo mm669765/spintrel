@@ -1,0 +1,79 @@
+   body {
+    font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #54463d; /* Цвет фона */
+    margin: 0; /* Убираем отступы */
+   }
+   h2 {
+    font-size: 1.1em; /* Размер шрифта */
+    color: #752641; /* Цвет текста */
+    margin-bottom: 1; /* Отступ снизу */
+   }
+   #container {
+    width: 400px; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+    background:green; /* Цвет фона правой колонки */ 
+   }
+   #header {
+    background: #8fa09b; /* Цвет фона */
+    font-size: 24pt; /* Размер текста */
+    font-weight: bold; /* Жирное начертание */
+    color: #edeed5; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+   }
+   #content {
+    float: left; /* Обтекание по правому краю */
+    width: 329px; /* Ширина левой колонки */
+    padding: 10px; /* Поля вокруг текста */
+    border-right: 1px dashed #183533; /* Линия справа */
+    background:yellow; /* Цвет фона левой колонки */
+   }
+   #content p {
+    margin-top: 0.3em /* Отступ сверху */
+   }
+   #sidebar {
+    float: left; /* Обтекание по правому краю */
+    width: 120px; /* Ширина */
+    padding: 10px; /* Отступы вокруг текста */
+   }
+   #footer {
+    background: #8fa09b; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+   }
+   .clear { 
+    clear: both; /* Отмена обтекания */ 
+   }
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
